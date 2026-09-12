@@ -1,0 +1,10 @@
+message,intent,should_escalate
+"My order is two weeks late",delivery_delay,false
+"I want my money back",refund_request,true
+"My card was charged twice",payment_problem,true
+"I cannot log into my account",account_access,true
+"The app keeps crashing",technical_issue,false
+"Please cancel my subscription",cancellation,true
+"How much does this product cost?",product_question,false
+"This service is terrible",complaint,true
+"I have a question about my order",other,true
